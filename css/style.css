@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #0F0B30;
+    color: white;
+}
+
+button{
+    border: 0;
+    background:transparent;
+    color: white;
+}
+
+/* HEADER */
+/* ====================================================================== */
+
+.container-header{
+    display: flex;
+    width: 90vw;
+    margin: 1rem auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-header li{
+    display: inline;
+    margin-right: 3rem;
+}
+
+.container-header .header-btns{
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-header .btn-login{
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container-header .btn-register{
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient( #00F0FF, #5773FF, #FF007A);
+}
+
+.header-banner{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-banner h2{
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.header-banner h1{
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+    background-image: linear-gradient(to bottom, #00F0FF, #5773FF 40%, #FF007A);
+    background-clip: text;
+    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+.header-banner p{
+    text-align: center;
+}
+
+.header-banner img{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.header-banner .seta{
+    margin-top: 5rem;
+}
+
+/* SECTION 1 */
+/* ====================================================================== */
+
+.section-robot{
+    display: flex;
+    width: 90vw;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+
+.section-robot span{
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: right;
+    background-image: linear-gradient(to bottom, #00F0FF 10%, #5773FF , #FF007A);
+    background-clip: text;
+    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
